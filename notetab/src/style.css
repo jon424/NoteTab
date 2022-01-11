@@ -112,12 +112,13 @@ span {
 #footer {
   /* margin-top: 23vh;
   z-index: 2; */
-
+  text-align: center;
   z-index: 2;
   position: fixed;
   position: absolute;
+  left: 215px;
   margin-top: 12px;
-  margin-left: 50%;
+  /* margin-left: 50%; */
 }
 .footer-class {
   position: fixed;

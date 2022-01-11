@@ -109,14 +109,28 @@ span {
   }
 }
 /*================================================FOOTER STYLEZ===============================================================*/
+#footer {
+  /* margin-top: 23vh;
+  z-index: 2; */
 
+  z-index: 2;
+  position: fixed;
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 50%;
+}
+.footer-class {
+  position: fixed;
+}
+.footer-class > p:nth-of-type(2) {
+  text-align: center;
+}
 /*================================================SEARCH-INPUT STYLEZ===============================================================*/
 .search-input {
   /* margin-left: 5px;
   border-radius: 2px; */
   padding: 6px;
   border: none;
-
   margin-top: 8px;
   margin-right: 16px;
   margin-left: 3px;
